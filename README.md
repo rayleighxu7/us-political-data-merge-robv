@@ -1,8 +1,18 @@
-# US Political Data Merge
+# US Political Data Merge Project
 
 > **AI Summary:** Python-based ETL project for merging and deduplicating over 1 million records from multiple Excel/CSV sources using deterministic and fuzzy matching, with company name standardization and US political voter data integration.
 
 ⚠️ **Note:** Data files are not committed due to PII reasons.
+
+---
+
+## Learnings and thoughts post project
+
+Pandas was not the right approach for this task, using polars and duckdb would have significantly improved performance and sped up the project as the scripts wouldnt take >30minutes to run.
+
+Organising and managing file inputs and outputs as well as scripts can be better sorted.
+
+When designing and coding, expect changes and requests from the client so take this into account.
 
 ---
 
