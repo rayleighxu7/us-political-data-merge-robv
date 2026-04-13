@@ -11,5 +11,6 @@ dependencies = [
     "python-dateutil==2.9.0.post0",
     "pytz==2025.2",
     "six==1.17.0",
+    "splink>=4.0.16",
     "tzdata==2025.2",
 ]
